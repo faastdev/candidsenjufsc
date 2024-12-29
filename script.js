@@ -221,10 +221,10 @@ gsap.to("#Menma", {
     start: "top 180",
     end: "+=280",
     scrub: true,
-    onEnter: () => (changeText("Menma", " Arajin Hoshigaki"), ajusterLargeur("#Menma", "100%")),
-    onLeave: () => (changeText("Menma", "Caractère Arajin Hoshigaki"), ajusterLargeur("#Menma", "150%")), 
-    onEnterBack: () => changeText("Menma", "Caractère Arajin Hoshigaki"),
-    onLeaveBack: () => (changeText("Menma", "Arajin Hoshigaki"), ajusterLargeur("#Menma", "100%")),
+    onEnter: () => (changeText("Menma", " Higuruma Senju"), ajusterLargeur("#Menma", "100%")),
+    onLeave: () => (changeText("Menma", "Caractère Higuruma Senju"), ajusterLargeur("#Menma", "150%")), 
+    onEnterBack: () => changeText("Menma", "Caractère Higuruma Senju"),
+    onLeaveBack: () => (changeText("Menma", "Higuruma Senju"), ajusterLargeur("#Menma", "100%")),
   }
 });
 
